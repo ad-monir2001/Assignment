@@ -1,0 +1,32 @@
+/* !  Styles for button */
+
+.btn{
+    display: inline-flex;
+    padding: 9px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 1.725px;
+    background: #F3F25B;
+}
+
+.container{
+    display: flex;
+    border-radius: 8px;
+}
+
+.container-form{
+    width: 866px;
+    height: 563px;
+    flex-shrink: 0;
+    
+    background: #201F1F;
+    color: #CCC6C6;
+}
+
+img{
+    width: 433px;
+    height: 563px;
+    flex-shrink: 0;
+}
