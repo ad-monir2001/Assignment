@@ -34,6 +34,7 @@ nav{
     display: inline-flex;
     align-items: flex-start;
     gap: 52px;
+    margin: 35px;
 }
 
 a{
