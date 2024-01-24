@@ -1,3 +1,7 @@
+         /* ! Designs for banner */
+
+
+
 .banner{
     background-image: url(/image/banner.png);
     background-repeat: no-repeat;
@@ -37,6 +41,11 @@
 }
 
                     /* ! designs for section-1 */
+.s1 , .s3{
+    margin-top: 1.89rem;
+    
+}
+
 
 .success-container{
     display: flex;
@@ -110,3 +119,7 @@ hr{
     margin-top: 5em;
     margin-bottom: 3em;
 }
+
+
+/* ! Designs for media quaries */
+
