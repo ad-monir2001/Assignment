@@ -36,7 +36,54 @@
     cursor: pointer;
 }
 
-     /* ! designs for section-3 */
+                    /* ! designs for section-1 */
+
+.success-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-img{
+    width: 453.71px;
+    height: 450px;
+    flex-shrink: 0;
+
+}
+
+.texts-left{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    width: 528px;
+    height: 296px;
+}
+
+.texts-right{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+    width: 528px;
+    height: 296px;
+}
+
+.section-1-button{
+    display: flex;
+    width: 242px;
+    padding: 17px 82px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    background: #F3F25B;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+
+                    /* ! designs for section-3 */
 
 .work-container{
     display: flex;
