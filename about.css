@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 530px;
+    width: auto;
+    height: 45vh;
     flex-shrink: 0;
 }
 
@@ -193,14 +194,32 @@ hr{
 
 /* ! Designs for media quaries */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    
+    .banner{
+        background-image: url(/image/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .banner .main-heading{
+        font-size: 60px;
+    }
+    .banner .sub-heading{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
     .s1{
         width:90%;
         margin: 0 auto;
@@ -211,11 +230,53 @@ hr{
         display: flex;
         flex-direction: column;
         margin-top: 2em;
+        margin: 0 auto;
+        border-bottom: .5em solid gray;
+
+    }
+
+    .success-container .texts-left{
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .success-img{
+        width: 400px;
+        height: 400px;
+    }
+    .s2 .container{
+        height: 850px;
+    }
+    .s2 .heading{
+        margin-top: -100px;
+    }
+    .s2 .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .s3 .main-heading-2{
+        font-size: 35px;
+    }
+
+    .s3 .work-container{
+        display: inline;
+    }
+
+    .s3 .work{
+        gap: 30px;
+        margin-bottom: 25px;
+    }
+
+    .s3 .work .sub-heading{
+        font-size: 20px;
+    }
+
+    .s3 .work .text{
+        font-size: 18px;
     }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
